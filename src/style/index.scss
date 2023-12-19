@@ -1,0 +1,46 @@
+body{
+    background-color:black;
+}
+.hed{
+    border-bottom:1px solid #777;
+    display:flex;
+    gap:20px;
+    align-items:center;
+    &_img{
+        height:70px;
+    }
+    &_dis{
+        color:#777;
+        font-size:50px;
+        font-weight:bold;
+    }
+}
+.count{
+    color:white;
+    margin:0 auto;
+    width:300px;
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    &_row{
+        display:flex;
+        gap:10px;
+        &_img{
+        
+        width:100px;
+    }
+    }
+    &_tit{
+        font-size:35px;
+    }
+    &_dis{
+        text-align:center;
+
+    }
+    button{
+        width:100%;
+    }
+}
