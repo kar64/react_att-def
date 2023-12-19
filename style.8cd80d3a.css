@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+}
+
+.hed {
+  border-bottom: 1px solid #777;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.hed_img {
+  height: 70px;
+}
+.hed_dis {
+  color: #777;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.count {
+  color: white;
+  margin: 0 auto;
+  width: 300px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.count_row {
+  display: flex;
+  gap: 10px;
+}
+.count_row_img {
+  width: 100px;
+}
+.count_tit {
+  font-size: 35px;
+}
+.count_dis {
+  text-align: center;
+}
+.count button {
+  width: 100%;
+}
+
+/*# sourceMappingURL=/style.8cd80d3a.css.map */
